@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Countdown</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="timer-body">
+            <div id="timer-ques">
+                <h2>Enter the date & time to countdown</h2>
+                <form action="" id="countdownForm">
+                    <div>
+                        <input type="date" name="date" required>
+                        <input type="time" name="time" required>
+                    </div>
+                    <button type="submit" class="btn">Start</button>
+                </form>
+            </div>
+
+            <div id="countdown-container">
+                <div id="timer-container">
+                    <div id="days" class="countdown-box"></div>
+                    <div id="hours" class="countdown-box"></div>
+                    <div id="minutes" class="countdown-box"></div>
+                    <div id="seconds" class="countdown-box"></div>
+                </div>
+                <button id="stop-countdown" onclick=stopCounter() class="btn">Stop</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+.timer-body{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-ques{
+    width: fit-content;
+    height: fit-content;
+}
+#timer-ques h2{
+    width: fit-content;
+    margin: auto;
+    font-size: 2rem;
+}
+#countdownForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#countdownForm input{
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+#countdown-container{
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer-container{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.countdown-box{
+    width: 80px;
+    height: 80px;
+    margin: 1rem 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.countdown-box div{
+    background-color: rgb(212, 139, 184);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
